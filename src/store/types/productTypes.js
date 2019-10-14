@@ -1,0 +1,9 @@
+const productTypes = {
+  ADD_TO_CART: 'ADD_TO_CART',
+  UPDATE_QUANTITY: 'UPDATE_QUANTITY',
+  REMOVE_FROM_CART: 'REMOVE_FROM_CART',
+  EMPTY_CART: 'EMPTY_CART',
+  FILTER_ITEMS: 'FILTER_ITEMS'
+}
+
+export default productTypes;

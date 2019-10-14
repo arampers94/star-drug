@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  #sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  #introWrapper {
+    padding: 0;
+  }
+  #categories {
+    display: none;
+  }
+  #product-card {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .product-list-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .cart-img {
+    height: 125px;
+    width: 125px;
+  }
+}
+
+.content {
+  flex-grow: 1;
+}
+
+#promotion-wrapper {
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  align-items: center;
+}
+
+#promotion {
+  color: white;
+  padding: 20px;
+}
+
+#promo-text-wrapper {
+  display: inline-block;
+  line-height: 45px;
+  margin-top: 40px;
+}
+
+#categories-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+#shop-by-category {
+  margin: 30px 0 10px 0;
+}
+
+#pharm-wrapper {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+#pharm-desc {
+  padding-left: 20px;
+  margin: auto;
+}
+
+#contact-section {
+  text-align: center;
+  
+}
+
+#footer-wrapper {
+  background-color: #7c7c7c;
+  height: 300px;
+}
