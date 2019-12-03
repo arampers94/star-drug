@@ -2,7 +2,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
   shoppingCartContainer: {
-    padding: '20px 0'
+    padding: '20px',
+    maxWidth: '1000px'
   },
   checkoutButtonContainer: {
     marginTop: '10px'

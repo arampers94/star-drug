@@ -21,18 +21,18 @@ const ProductList = (props) => {
           </Typography>
         </Grid>
         <Grid item xs={12}>
-          <Grid container direction="row">
+          <Grid container direction="row" justify="center">
             {products.map((item, index) => {
               if (!item.hidden) {
                 return (
-                  <Grid item xs={12} sm={6} md={4} lg={3} xl={2} key={index} className={classes.gridItem}>
+                  <Grid item key={index} className={classes.gridItem}>
                     <Card className={classes.card} key={index} id="product-card">
                       <CardActionArea>
                         <Link to={"/product_details/" + item.id} key={item.id}>
                           <CardMedia
                             component="img"
                             alt={item.name}
-                            height={360}
+                            height={300}
                             width={250}
                             image={item.img}
                             title={item.name}

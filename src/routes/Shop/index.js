@@ -40,9 +40,9 @@ const Shop = (props) => {
             </Grid>
           </Hidden>
           <Grid item xs={12} className={classes.products}>
-            <Grid item className={classes.promoBanner}>
+            {/* <Grid item className={classes.promoBanner}>
               <PromoBanner />
-            </Grid>
+            </Grid> */}
             <Grid item className={classes.productList}>
               <ProductList products={products} filter={filter} inCart={inCart.bind(this)} cart={cart} />
             </Grid>

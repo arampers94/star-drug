@@ -10,6 +10,10 @@ const useStyles = makeStyles(theme => ({
     overflow: 'hidden',
     backgroundColor: theme.palette.background.paper,
   },
+  homeContent: {
+    maxWidth: '1200px',
+    margin: 'auto'
+  },
   icon: {
     color: 'rgba(255, 255, 255, 0.54)',
   },
@@ -39,7 +43,6 @@ const useStyles = makeStyles(theme => ({
   },
   contactSection: {
     fontSize: '1.5em',
-    backgroundColor: '#f2f2f2',
     padding: '20px 40px',
     height: 'auto',
     minHeight: '500px',

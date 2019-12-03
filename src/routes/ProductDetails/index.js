@@ -8,6 +8,7 @@ import { connect } from 'react-redux';
 import { firestoreConnect } from 'react-redux-firebase';
 import { compose } from 'redux';
 import productTypes from '../../store/types/productTypes';
+import Paper from '@material-ui/core/Paper'
 
 const ProductDetails = (props) => {
   const { product, cart } = props;
@@ -24,7 +25,7 @@ const ProductDetails = (props) => {
 
   if (product) {
     return (
-      <div>
+      <Paper>
         <Grid container direction="column" className={classes.detailsGrid}>
           <Grid item>
             <Details product={product} cart={cart} inCart={inCart.bind(this)} />
@@ -34,7 +35,7 @@ const ProductDetails = (props) => {
           </Grid>
         </Grid>
         <Footer />
-      </div>
+      </Paper>
     )
   } else {
     return (

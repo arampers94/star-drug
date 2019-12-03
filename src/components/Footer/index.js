@@ -17,23 +17,23 @@ const Footer = (props) => {
                 View Products By:
               </Typography>
             </Grid>
-            <Grid item xs={12} sm={9}>
+            <Grid item xs={12} sm={9} className={classes.gridItem}>
               <Grid item xs={12}>
-                <Typography variant="body1">
+                <Typography variant="body2">
                   All | Baby & Kids | Beauty | Diet | Home
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography variant="body1">
+                <Typography variant="body2">
                   Medicine | Personal Care | Seasonal | Vitamins
                 </Typography>
               </Grid>
             </Grid>
-            <Grid item xs={12} sm={3}>
-              <Typography variant="body1">
+            <Grid item xs={12} sm={3} className={classes.gridItem}>
+              <Typography variant="body2">
                 Privacy Policy | Terms of use | Refund policy
               </Typography>
-              <Typography variant="body1">
+              <Typography variant="body2">
                 Shipping details | In-store pickup available
               </Typography>
             </Grid>

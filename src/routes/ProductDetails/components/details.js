@@ -13,7 +13,7 @@ const Details = (props) => {
     return (
       <Grid container direction="column">
         <Grid container direction="row" className={classes.row} spacing={2}>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={12} sm={6} className={classes.productImage}>
             <img src={product.img} alt="product" height="auto" width="80%" />
           </Grid>
           <Grid item xs={12} sm={6}>

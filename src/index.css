@@ -92,10 +92,10 @@ a {
 
 #contact-section {
   text-align: center;
-  
 }
 
 #footer-wrapper {
   background-color: #7c7c7c;
-  height: 300px;
+  height: 100%;
+  padding-bottom: 15px;
 }

@@ -5,7 +5,10 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     marginTop: '40px',
-    flexWrap: 'nowrap'
+    flexWrap: 'nowrap',
+    maxWidth: '1200px',
+    margin: 'auto',
+    padding: '30px 0'
   },
   sidebar: {
     height: '100%',
@@ -41,7 +44,7 @@ const useStyles = makeStyles(theme => ({
     margin: '20px 0'
   },
   productList: {
-    padding: '30px 0'
+
   },
   productWrapper: {
     padding: 0,
@@ -57,7 +60,8 @@ const useStyles = makeStyles(theme => ({
   },
   card: {
     maxWidth: '250px',
-    marginBottom: '24px'
+    marginBottom: '24px',
+    marginRight: '24px'
   },
   spinner: {
     display: 'flex',

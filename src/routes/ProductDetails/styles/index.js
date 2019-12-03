@@ -10,12 +10,13 @@ const useStyles = makeStyles(theme => ({
     paddingTop: '50px'
   },
   detailsGrid: {
-    padding: '40px 70px',
-    backgroundColor: 'white'
+    padding: '30px',
+    backgroundColor: 'white',
+    maxWidth: '1200px',
+    margin: 'auto'
   },
   detailTitle: {
-    paddingTop: '16px',
-    paddingBottom: '16px'
+    padding: '16px 0',
   },
   detailText: {
     fontSize: 'large',
@@ -23,6 +24,9 @@ const useStyles = makeStyles(theme => ({
   },
   iconText: {
     paddingLeft: '5px'
+  },
+  productImage: {
+    textAlign: 'center'
   }
 }))
 
