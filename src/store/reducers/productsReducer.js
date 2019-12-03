@@ -82,7 +82,8 @@ const productsReducer = (state = initState, action) => {
       return {
         ...state,
         products: itemList,
-        cart: cartItems
+        cart: cartItems,
+        total: 0
       }
     case productTypes.FILTER_ITEMS:
       console.log(action.message);
